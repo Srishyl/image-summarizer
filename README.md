@@ -59,12 +59,4 @@ A streamlined, AI-powered application that generates detailed descriptions and c
 -   **Model**: LLaVA 13B (Large Language-and-Vision Assistant)
 -   **Language**: Python
 
-## ❗ Troubleshooting
 
--   **"Connection Refused" / Error**: Ensure Ollama is running in the background. You should be able to reach `localhost:11434` in your browser.
--   **"Model not found"**: Make sure you ran `ollama pull llava:13b`. The app is specifically configured for the 13B parameter model.
--   **Slow Performance**: Vision models are computationally intensive. A GPU (NVIDIA) is highly recommended. On CPU, processing might take anywhere from 10 to 60+ seconds depending on your hardware.
-
-## 📄 License
-
-This project is open-source. Feel free to modify and adapt it for your needs!
